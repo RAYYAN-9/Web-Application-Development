@@ -1,0 +1,120 @@
+<html>
+<head>
+	<title>University Student Registration</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		form {
+			width: 50%;
+			margin: 40px auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input {
+			width: 100%;
+			height: 30px;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h2>University Student Registration</h2>
+		
+		<!-- Text Input -->
+		<label for="name">Full Name:</label>
+		<input type="text" id="name" name="name" required>
+		
+		<!-- Email Input -->
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		
+		<!-- Password Input -->
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		
+		<!-- Tel Input -->
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" required>
+		
+		<!-- URL Input -->
+		<label for="website">Personal Website:</label>
+		<input type="url" id="website" name="website">
+		
+		<!-- Date Input -->
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="dob" required>
+		
+		<!-- Datetime-local Input -->
+		<label for="joining_date">Joining Date and Time:</label>
+		<input type="datetime-local" id="joining_date" name="joining_date" required>
+		
+		<!-- Month Input -->
+		<label for="payment_month">Payment Month:</label>
+		<input type="month" id="payment_month" name="payment_month" required>
+		
+		<!-- Week Input -->
+		<label for="exam_week">Exam Week:</label>
+		<input type="week" id="exam_week" name="exam_week" required>
+		
+		<!-- Time Input -->
+		<label for="class_time">Class Time:</label>
+		<input type="time" id="class_time" name="class_time" required>
+		
+		<!-- Number Input -->
+		<label for="roll_no">Roll Number:</label>
+		<input type="number" id="roll_no" name="roll_no" required>
+		
+		<!-- Range Input -->
+		<label for="progress">Progress (1-100):</label>
+		<input type="range" id="progress" name="progress" min="1" max="100" required>
+		
+		<!-- Color Input -->
+		<label for="favorite_color">Favorite Color:</label>
+		<input type="color" id="favorite_color" name="favorite_color" required>
+		
+		<!-- Checkbox Input -->
+		<label for="hobbies">Hobbies:</label>
+		<input type="checkbox" id="reading" name="hobbies[]" value="reading">
+		<label for="reading">Reading</label>
+		<input type="checkbox" id="coding" name="hobbies[]" value="coding">
+		<label for="coding">Coding</label>
+		
+		<!-- Radio Input -->
+		<label for="gender">Gender:</label>
+		<input type="radio" id="male" name="gender" value="male" required>
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female" required>
+		<label for="female">Female</label>
+		
+		<!-- File Input -->
+		<label for="document">Upload Document:</label>
+		<input type="file" id="document" name="document" required>
+		
+		<!-- Image Input -->
+		<label for="profile_picture">Upload Profile Picture:</label>
+		<input type="image" id="profile_picture" name="profile_picture" src="upload.png" alt="Upload Profile Picture">
+		
+		<!-- Button Input -->
+		<input type="button" value="Calculate Fees" onclick="alert('Fees calculated successfully!')">
+		
+		<!-- Reset Input -->
+		<input type="reset" value="Reset Form">
+		
+		<!-- Submit Input -->
+		<input type="submit" value="Submit">
+
+         
+
+    </form>
+    </body>
+</html>
